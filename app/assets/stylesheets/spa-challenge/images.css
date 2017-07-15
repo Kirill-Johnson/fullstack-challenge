@@ -1,0 +1,15 @@
+form.image-form .id,
+div.image-list .id {
+  display: none;
+}
+
+div.images-area {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+sd-image-editor form,
+sd-thing-editor form {
+  padding-left: 15px;
+  padding-right: 15px;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="spa-challenge">
+  <head>
+    <title>Devolute Fullstack Challenge</title>
+    <meta name="description" content="Devolute Fullstack Challenge.">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%= stylesheet_link_tag    "spa-challenge", :media => "all" %>
+    <%= javascript_include_tag "spa-challenge" %>
+  </head>
+  <body>
+
+    <div id="main-menubar" class="container-fluid fullsize">
+      <sd-navbar></sd-navbar>
+    </div>
+    <div id="display-area" class="container-fluid">
+      <div ui-view></div>
+    </div>
+
+  </body>
+</html>

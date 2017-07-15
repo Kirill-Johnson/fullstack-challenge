@@ -1,0 +1,24 @@
+(function() {
+  "use strict";
+
+  angular
+    .module("spa-challenge.config", [])
+    .constant("spa-challenge.config.APP_CONFIG", {
+      server_url: "<%= ENV['RAILS_API_URL'] %>",
+
+      welcome_page_html: "<%= asset_path('spa-challenge/pages/welcome_page.html') %>",
+
+      navbar_html: "<%= asset_path('spa-challenge/layout/navbar/navbar.html') %>",
+
+      images_page_html: "<%= asset_path('spa-challenge/pages/images_page.html') %>",
+      image_loader_html: "<%= asset_path('spa-challenge/layout/image_loader/image_loader.html') %>",
+      authn_session_html: "<%= asset_path('spa-challenge/authn/authn_session/authn_session.html') %>",
+      image_selector_html: "<%= asset_path('spa-challenge/images/image_selector.html') %>",
+      image_editor_html: "<%= asset_path('spa-challenge/images/image_editor.html') %>",
+
+      authn_signup_html: "<%= asset_path('spa-challenge/authn/signup/signup.html') %>",
+      signup_page_html: "<%= asset_path('spa-challenge/pages/signup_page.html') %>",
+
+    });
+
+})();

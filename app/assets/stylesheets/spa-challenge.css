@@ -1,0 +1,9 @@
+/*
+ * SPA Demo Stylesheet Manifest File
+ *
+ *= require bootstrap
+ *= require ui-cropper
+ *= require spa-challenge/layout
+ *= require spa-challenge/authn
+ *= require spa-challenge/images
+ */
