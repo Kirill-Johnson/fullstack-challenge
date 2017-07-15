@@ -1,4 +1,4 @@
-## Fullstack challenge
+# Fullstack challenge
 
 This is fullstack challenge from Devolute. The app basically uses Ruby on Rails and AngularJS.
 
