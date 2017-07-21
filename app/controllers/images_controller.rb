@@ -80,7 +80,7 @@ class ImagesController < ApplicationController
     end
 
     def image_params
-      params.require(:image).permit(:caption,:position=>[:lng,:lat])
+      params.require(:image).permit(:caption)
     end
 
     def image_content_params
